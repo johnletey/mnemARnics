@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "outDir": "dist",
+    "esModuleInterop": true
+  },
+  "files": ["src/generate.ts", "src/getKey.ts"]
+}
