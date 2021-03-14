@@ -2,8 +2,8 @@
   "scripts": {
     "build": "tsc",
     "fmt": "prettier --write .",
-    "generate": "node dist/generate.js",
-    "getKey": "node dist/getKey.js"
+    "generate": "yarn build && node dist/generate.js",
+    "getKey": "yarn build && node dist/getKey.js"
   },
   "dependencies": {
     "arweave": "^1.10.11",
